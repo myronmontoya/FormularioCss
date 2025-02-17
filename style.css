@@ -1,0 +1,90 @@
+/* Buena tarde mi teniente investige CSS he estado aprendiendo en MIMOR y en youtube*/
+body {
+    font-family: Arial, sans-serif; /* tipo de fuente */
+    background-color: #f0f8ff; /* color de fondo de la pantalla */
+}
+
+/* aqui se edita encabezado */
+.encabezado {
+    text-align: center; /* Centra el texto */
+    color: black; /* Color del texto */
+    font-size: 50px; /* Tamaño del texto */
+    margin-top: 20px; /* Espaciado con arriba */
+    background-color: lightgreen; /* Color de fondo */
+    padding: 10px; /* espacio */
+    border-radius: 10px; /* redondea los bordes */
+    box-shadow: 0px 0px 10px green; /* se le pone sombra en el texto */
+}
+
+/* Aqui puse contenedor, para poner ponerlo como si fuera un carnet */
+.contenedor {
+    display: flex; /* hace que todo se pone en fila */
+    justify-content: space-between; /* espacio entre formulario y la imagen */
+    align-items: center; /* Alinea verticalmente */
+    max-width: 900px; /* el ancho del contenedor */
+    margin: 40px auto; /* con esto se centra el contendor, pero con la pagina */
+    padding: 20px; /* espacio */
+    background-color: aqua; /* Color de fondo */
+    border-radius: 20px; /* bordea */
+    border: 2px solid blue; /* Borde azul */
+    box-shadow: 0px 0px 10px blue; /*aqui le puse Sombra azul */
+}
+
+/* Estilos para el formulario */
+.formulario {
+    background-color: skyblue; /* Color de fondo azul claro */
+    padding: 20px; /* Espacio */
+    border-radius: 20px; /* redondea */
+    border: 3px solid black; /* le puse borde negro */
+    max-width: 400px; /* Ancho del formulario */
+    width: 100%; /* es como la opcion de excel se ajusta */
+    box-shadow: 0px 0px 10px blue; /* le puse sombra ombra azul */
+}
+
+/* Estilos para etiquetas dentro del formulario */
+.formulario label {
+    display: block; /* Hace que cada etiqueta ocupe una línea completa */
+    font-weight: bold; /* Texto en negrita */
+    margin-top: 10px; /* Espaciado superior entre etiquetas */
+}
+
+/* Estilos para los campos de entrada del formulario */
+.formulario input {
+    width: 100%; /* Hace que los campos ocupen todo el ancho del formulario */
+    padding: 8px; /* Espaciado interno */
+    margin-top: 5px; /* Espaciado superior */
+    border: 2px solid black; /* Borde negro */
+    border-radius: 5px; /* Bordes redondeados */
+    font-size: 16px; /* Tamaño del texto */
+}
+
+/* Estilos para la imagen */
+.fotografia {
+    max-width: 300px; /* Ancho máximo de la imagen */
+    height: auto; /* Ajusta la altura automáticamente */
+    margin-left: 100px; /* Espaciado entre el formulario y la imagen */
+    border: 1px solid blue; /* pone un borde azul */
+    border-radius: 20px; /* pone un borde redondeados */
+    box-shadow: 0px 0px 10px blue; /* aplica sombra azul */
+}
+
+/* Estilos para el botón de envío */
+.boton {
+    font-size: 20px; /* Tamaño del texto */
+    font-weight: bolder; /* Negrita */
+    padding: 10px 20px; /* Espaciado interno */
+    background-color: green; /* Color de fondo */
+    color: white; /* Color del texto */
+    border: 1px solid green; /* Borde verde */
+    border-radius: 20px; /* Bordes redondeados */
+    box-shadow: 0px 0px 10px green; /* le pone ombra verde */
+    cursor: pointer; /* Cambia el cursor al pasar el mouse */
+    margin-top: 20px; /* Espacio con lo de arriba */
+    display: block; /* Hace que el botón ocupe toda la línea, esto es importante o queda solo a la izquierda*/
+    width: 100%; /* Ajusta el ancho */
+}
+
+/* Efecto cuando el cursor pasa sobre el botón */
+.boton:hover {
+    background-color: darkgreen; /* Cambia el color de fondo del boton esto lo investige porque he visto que se puedee usar */
+}
